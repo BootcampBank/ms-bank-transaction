@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-transaction
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/transaction
+server:
+  port: 8095
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
